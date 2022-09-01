@@ -3,11 +3,12 @@
 body{
   @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap');
   font-family: 'Be Vietnam Pro', arial, verdana, sans-serif;
+  font-size: 35px;
   background-color: #F5F8F6;
 }
 /* Header */
 .header{
-  position: fixed;
+
   top: 0;
   width: 100%;
   color: #303A33;
@@ -31,4 +32,38 @@ body{
   color: #961B2A;
 }
 
-/* Introdução */
+/* home */
+
+ .intro h1{
+  font-weight:600; 
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 37px;
+  color: #3A3A3A;
+}
+.intro p{
+color: #838383 ;
+}
+.avatar{
+  height: 700px;
+  background: url(/img/avatar.png) no-repeat center;
+}
+.avatar img:first-child{
+padding-left: 300px;
+}
+.avatar img:nth-child(2){
+  padding-left: 130px;
+}
+.avatar img:nth-child(4){
+  display: block;
+  padding-top: 420px;
+}
+.avatar img:nth-child(5){
+  padding-left: 350px;
+  z-index: 10;
+  margin-top: -200px;
+}
+
+/* Skills */
+
+

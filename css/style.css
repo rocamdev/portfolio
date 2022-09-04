@@ -5,6 +5,25 @@ body{
   font-family: 'Be Vietnam Pro', arial, verdana, sans-serif;
   font-size: 35px;
   background-color: #F5F8F6;
+ 
+}
+
+p {
+  color: #838383 ;
+  }
+h2{
+    color: #656966;
+  }
+
+.title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 160px;
+  padding-bottom: 65px;
+}
+.title img{
+display: inline;
 }
 /* Header */
 .header{
@@ -41,12 +60,10 @@ body{
   padding-bottom: 37px;
   color: #3A3A3A;
 }
-.intro p{
-color: #838383 ;
-}
+
 .avatar{
   height: 700px;
-  background: url(/img/avatar.png) no-repeat center;
+  background: url(/img/avatar.png) no-repeat right;
 }
 .avatar img:first-child{
 padding-left: 300px;
@@ -65,5 +82,10 @@ padding-left: 300px;
 }
 
 /* Skills */
+
+.skills ul li {
+  display: inline-block;
+  padding: 20px 50px;
+}
 
 

@@ -81,13 +81,33 @@
   </section>
 
   <section class="contact container">
-    <h2> Contact me</h2>
+    <h2 class="title"> Contact me</h2>
 
     <div class="grid-9">
       <img src="/img/contacts.svg" alt="Contact illustration">
     </div>
 
     <div class="grid-7">
+
+      <form id="form_contact" method="post" action="./enviar.php" class="contato_form formphp">
+        <!-- <label for="nome">Nome</label> 
+        <input type="text" id="nome" name="nome" required />-->
+        <div class="form-field">
+          <!-- <label for="e-mail" name="email" required></label> -->
+          <input type="email" value="Enter e-mail adress" id="e-mail" />
+        </div>
+        <!-- <label for="telefone">Telefone</label> -->
+        <!-- <input type="text" id="telefone" name="telefone" required /> -->
+
+        <label class="nao-aparece" for="">Se você não é um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece" for="">Se você não é um robô, não mude este campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+        <textarea id="mensagem" name="mensagem" required>Enter message...</textarea>
+
+        <button id="enviar" name="enviar" class="btn" type="submit">Send <img class="button-icon" src="/img/send.svg" alt="Send icon"></button>
+      </form>
 
     </div>
   </section>

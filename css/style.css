@@ -119,3 +119,70 @@ font-size: 20px;
 }
 
 /* Contact */
+ .contato_form .form-field:hover{
+   border: 2px solid #29803C;
+ }
+ /* box-sizing: border-box;
+
+position: absolute;
+width: 515px;
+height: 263px;
+left: 0px;
+top: 143px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.25);
+box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+border-radius: 8px; */
+
+ .contato_form input{
+  display: block;
+  font-size: 30px;
+  padding: 56px 20px 20px 20px;
+  color: #838383;
+  text-decoration: underline;
+    width: 100%;
+   outline: none;
+   margin-bottom: 10px;
+   background: #FFFFFF;
+   border: 1px solid rgba(0, 0, 0, 0.25);
+   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+   border-radius: 8px;
+ }
+ .contato_form textarea{
+   display: block;
+   margin-top: 30px;
+   font-size: 30px;
+   width: 100%;
+    height: 263px;
+    padding: 20px 20px;
+   outline: none;
+   background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+
+   color: #838383;
+ }
+ .contato_form .btn{
+  margin: 45px 166px ;
+  width: 181px;
+  height: 66px;
+  font-size: 36px;
+  background: #961B2A;
+  border-style: none;
+  border-radius: 4px;
+  color: #FFFDFD;
+  padding: 15px 69px 15px 20px;
+ }
+ .button-icon {
+  position: absolute;
+ padding-left: 10px;
+ }
+
+
+ .nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0;
+}   

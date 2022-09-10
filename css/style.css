@@ -88,4 +88,34 @@ padding-left: 300px;
   padding: 20px 50px;
 }
 
+/* Projects */
+.projects p{
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.works{
+  height: 500px;
+  background: url(/img/project-back.svg) no-repeat;
+}
+.works img{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.works-p{
+  text-align: center;
+  margin: 0 35px 0 10px;
+  padding-top: 40px;
+  padding-left: 455px;
+  padding-right: 455px;
+  font-size: 30px;
+  background-color: #E5E5E5;
+}
+.works-p a{
+font-size: 20px;
+}
+.works-p p:nth-child(2) {
+  color: #29803C ;
+}
 
+/* Contact */

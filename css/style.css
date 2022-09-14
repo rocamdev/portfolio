@@ -194,4 +194,23 @@ font-size: 20px;
   margin-right: 0;
 }
 
+.github {
+  margin-left: 330px;
+}
+.github p{
+  padding-bottom: 20px;
+  text-align: center;
+   
+}
+.github a img{
+position: absolute;
+}
+.github a p{
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 85px;
+
+}
+
+
 

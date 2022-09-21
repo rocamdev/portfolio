@@ -49,7 +49,7 @@ display: inline;
   padding: 20px 0;
 }
 .header_menu ul li:last-child{
-padding-right: 100px;
+padding-right: 10px;
 
 }
 .header_menu .red{
@@ -61,29 +61,40 @@ padding-right: 100px;
  .intro h1{
   font-weight:600; 
   font-size: 50px;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 37px;
   color: #3A3A3A;
 }
 
 .avatar{
-  height: 700px;
-  background: url(/img/avatar.png) no-repeat right;
+  position: relative;
+  
 }
-.avatar img:first-child{
-padding-left: 300px;
+.avatar-img{
+  padding-top: 100px;
+  margin-left: 100px;
 }
+
 .avatar img:nth-child(2){
-  padding-left: 130px;
+  position: absolute;
+  top: 0;
+  left: 240px
+}
+.avatar img:nth-child(3){
+  position: absolute;
+  top: 0;
+  right: -80px;
 }
 .avatar img:nth-child(4){
-  display: block;
-  padding-top: 420px;
+  position: absolute;
+  left:0;
+  top: 50px;
 }
-.avatar img:nth-child(5){
-  padding-left: 350px;
-  z-index: 10;
-  margin-top: -200px;
+
+.avatar img:nth-child(6){
+  position:absolute;
+  right: -70px;
+  bottom: -40px;
 }
 
 /* Skills */

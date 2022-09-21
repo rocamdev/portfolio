@@ -37,6 +37,7 @@ display: inline;
 .header_menu{
   text-align: right;
 }
+
 .header_menu ul li{
   display: inline-block;
   margin-left: 112px;
@@ -46,6 +47,10 @@ display: inline;
   font-size: 28px;
   color: #303A33;
   padding: 20px 0;
+}
+.header_menu ul li:last-child{
+padding-right: 100px;
+
 }
 .header_menu .red{
   color: #961B2A;
@@ -175,11 +180,11 @@ font-size: 20px;
 }   
 
 /* Footer */
-.footer {
+.footer-1 {
   margin-top: 100px;
   height: 444px;
   background: url(../img/wave.png) no-repeat center;
-  background-size: cover;
+  background-size: auto;
 }
 .footer p {
   padding-top: 150px;

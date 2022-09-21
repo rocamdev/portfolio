@@ -68,11 +68,13 @@ padding-right: 10px;
 
 .avatar{
   position: relative;
+  margin-left: 50px;
+
   
 }
 .avatar-img{
   padding-top: 100px;
-  margin-left: 100px;
+  padding-left: 70px;
 }
 
 .avatar img:nth-child(2){
@@ -83,7 +85,7 @@ padding-right: 10px;
 .avatar img:nth-child(3){
   position: absolute;
   top: 0;
-  right: -80px;
+  right: -45px;
 }
 .avatar img:nth-child(4){
   position: absolute;
@@ -93,7 +95,7 @@ padding-right: 10px;
 
 .avatar img:nth-child(6){
   position:absolute;
-  right: -70px;
+  right: -40px;
   bottom: -40px;
 }
 

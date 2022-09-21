@@ -1,0 +1,12 @@
+/* estilo para tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+
+} /* Final do estilos para tablet*/
+
+
+/* estilos para smartphone */
+@media only screen and (max-width: 787px){
+
+
+}

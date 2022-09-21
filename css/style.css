@@ -100,11 +100,13 @@ padding-right: 10px;
 }
 
 /* Skills */
+.skills-flex{
+  display: flex;
+  margin:40px;
+  justify-content: space-between;
 
-.skills ul li {
-  display: inline-block;
-  padding: 20px 50px;
 }
+
 
 /* Projects */
 .projects p{

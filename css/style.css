@@ -67,7 +67,7 @@ padding-right: 10px;
 }
 .intro-button{
   padding-top: 50px;
-    display: flex;
+  display: flex;
   justify-content: space-between;
   
 }
@@ -135,29 +135,35 @@ padding-right: 10px;
   padding-bottom: 50px;
 }
 .works{
-  height: 500px;
-  background: url(/img/project-back.svg) no-repeat;
+  display: flex;
+  justify-content: space-between;
 }
-.works img{
-  padding-left: 10px;
-  padding-top: 10px;
-}
-.works-p{
-  text-align: center;
-  margin: 0 35px 0 10px;
-  padding-top: 30px;
-  padding-left: 455px;
-  padding-right: 455px;
-  font-size: 30px;
-  background-color: #E5E5E5;
-  padding-bottom: 10px;
+.works-item img{ 
+  width: 400px;
+  height: 280px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.7));
+ }
+.works-item img:hover{ 
+  scale: 105%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.14), 0px 8px 5px rgba(0, 0, 0, 0.12), 0px 6px 12px rgba(0, 0, 0, 0.1);
+ }
+
+.works-txt{
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 400px;
+  height: 150px;
+  background-color: #3D563F ;
+  border: 2px solid #578965;
+  border-radius: 10px;
 
 }
-.works-p a{
-font-size: 20px;
-}
-.works-p p:nth-child(2) {
-  color: #29803C ;
+.works-txt p{
+  font-size: 20px;
+  color: #fff;
+  padding: 40px 30px;
+
 }
 
 /* Contact */
@@ -201,6 +207,14 @@ font-size: 20px;
   border-radius: 4px;
   color: #FFFDFD;
   padding: 15px 69px 15px 20px;
+ }
+ .btn{
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+ }
+ .btn:hover{
+  background: #3D563F;
+  scale: 105%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.14), 0px 8px 5px rgba(0, 0, 0, 0.12), 0px 6px 12px rgba(0, 0, 0, 0.2);
  }
  .button-icon {
   position: absolute;

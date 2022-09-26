@@ -256,3 +256,11 @@ h2 {
   padding-top: 10px;
   padding-left: 85px;
 }
+
+.social img:hover {
+  scale: 105%;
+}
+.github img:hover,
+.github a p:hover {
+  scale: 105%;
+}

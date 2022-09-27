@@ -7,7 +7,6 @@ body {
   background-color: #f5f8f6;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 * {
@@ -39,20 +38,17 @@ h2 {
 }
 .container {
   max-width: 1280px;
-  margin: 10px;
+  margin: 0 auto;
 }
 /* Header */
-.header {
+
+.menu-nav ul {
   color: #303a33;
   padding: 35px 0;
   display: flex;
-  justify-content: right;
-  align-items: flex-end;
-}
-.menu-nav ul {
-  display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  justify-content: right;
 }
 .menu-nav a {
   font-size: 28px;
@@ -160,6 +156,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 .works-item {
   margin: 10px;
@@ -194,8 +191,8 @@ h2 {
 /* Contact */
 .contact {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .contato_form input {
   display: block;
@@ -297,4 +294,26 @@ h2 {
 .github img:hover,
 .github a p:hover {
   scale: 105%;
+}
+
+/* Media query */
+@media only screen and (max-width: 1279px) {
+  .works {
+    justify-content: center;
+  }
+  .home {
+    justify-content: center;
+  }
+  .skills-flex {
+    justify-content: center;
+  }
+  .contact {
+    justify-content: center;
+  }
+  .menu-nav ul {
+    justify-content: center;
+  }
+  .footer {
+    justify-content: space-around;
+  }
 }

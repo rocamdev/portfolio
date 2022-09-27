@@ -5,6 +5,9 @@ body {
   font-family: "Be Vietnam Pro", arial, verdana, sans-serif;
   font-size: 35px;
   background-color: #f5f8f6;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 }
 
 * {
@@ -44,6 +47,7 @@ h2 {
   padding: 35px 0;
   display: flex;
   justify-content: right;
+  align-items: flex-end;
 }
 .menu-nav ul {
   display: flex;
@@ -258,39 +262,33 @@ h2 {
 }
 
 /* Footer */
-.footer-1 {
-  margin-top: 100px;
-  height: 444px;
-  background: url(../img/wave.png) no-repeat center;
-  background-size: auto;
+.footer-bg {
+  background: url(../img/wave.png) no-repeat;
+  background-size: cover;
+  max-width: 100%;
 }
-.footer p {
-  padding-top: 150px;
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.social p,
+.github p:first-child {
+  margin-top: 150px;
   color: #fff;
 }
-.social ul li {
-  margin-top: 35px;
-  margin-right: 65px;
-  margin-left: 0;
-}
-.social ul li:last-child {
-  margin-right: 0;
-}
-
-.github {
-  margin-left: 330px;
-}
 .github p {
-  padding-bottom: 20px;
-  text-align: center;
+  color: #fff;
 }
-.github a img {
-  position: absolute;
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
 }
-.github a p {
-  display: inline-block;
-  padding-top: 10px;
-  padding-left: 85px;
+.github a {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .social img:hover {

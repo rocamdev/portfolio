@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header container">
       <div class="header-menu">
         <nav class="menu-nav">
           <ul>
@@ -29,8 +29,8 @@
       </div>
     </header>
 
-    <section class="container home">
-      <div class="grid-8 intro">
+    <section class="home container">
+      <div class="intro">
         <h1>Rodolfo Campos</h1>
         <p>
           Hello! Am a software developer and here is my portfolio website. Here
@@ -47,7 +47,7 @@
           >
         </div>
       </div>
-      <div class="grid-7 avatar">
+      <div class="avatar">
         <img class="avatar-img" src="img/avatar.png" alt="Rodolfo's Avatar" />
         <img src="img/plus-gray.svg" alt="plus's Avatar'" />
         <img src="img/cube.svg" alt="cube's Avatar'" />
@@ -59,36 +59,38 @@
 
     <section id="skills" class="skills container">
       <h2 class="title">Skills</h2>
-      <div class="grid-9">
-        <p>I have a vast experience in the following web technologies:</p>
-        <div>
-          <ul class="skills-flex">
-            <li>
-              <a href=""></a><img src="img/html5.svg" alt="html 5 icon" />
-            </li>
+      <div class="skills-flex">
+        <div class="tech-flex">
+          <p>I have a vast experience in the following web technologies:</p>
+          <div class="tech-list">
+            <ul>
+              <li>
+                <a href=""></a><img src="img/html5.svg" alt="html 5 icon" />
+              </li>
 
-            <li>
-              <img src="img/css3.svg" alt="css 3 icon" />
-            </li>
+              <li>
+                <img src="img/css3.svg" alt="css 3 icon" />
+              </li>
 
-            <li>
-              <img src="img/js.svg" alt="JavaScript icon" />
-            </li>
-          </ul>
+              <li>
+                <img src="img/js.svg" alt="JavaScript icon" />
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="grid-7">
-        <img src="img/skills.svg" alt="skills illustration" />
+        <div>
+          <img src="img/skills.svg" alt="skills illustration" />
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="container projects">
+    <section id="projects" class="projects container">
       <h2 class="title">
         Projects <img src="img/projects-gray.svg" alt="projects icon" />
       </h2>
       <p>Some of my projects are:</p>
 
-      <div class="container works">
+      <div class="works">
         <div class="works-item">
           <a href="http://pantanal.rodolfocampos.com/" target="_blank"
             ><img
@@ -124,46 +126,48 @@
     </section>
 
     <!-- contato -->
-    <section id="contact" class="contact container">
+    <section id="contact" class="container">
       <h2 class="title">Contact me</h2>
+      <div class="contact">
+        <div>
+          <img src="img/contacts.svg" alt="Contact illustration" />
+        </div>
 
-      <div class="grid-9">
-        <img src="img/contacts.svg" alt="Contact illustration" />
-      </div>
-
-      <div class="grid-7">
-        <form
-          id="form_contact"
-          method="post"
-          action="./enviar.php"
-          class="contato_form formphp"
-        >
-          <div class="form-field">
-            <input type="email" value="Enter e-mail adress" id="e-mail" />
-          </div>
-          <!-- Teste de bot -->
-          <label class="nao-aparece" for=""
-            >Se você não é um robô, deixe em branco.</label
+        <div>
+          <form
+            id="form_contact"
+            method="post"
+            action="./enviar.php"
+            class="contato_form formphp"
           >
-          <input type="text" class="nao-aparece" name="leaveblank" />
-          <label class="nao-aparece" for=""
-            >Se você não é um robô, não mude este campo.</label
-          >
-          <input
-            type="text"
-            class="nao-aparece"
-            name="dontchange"
-            value="http://"
-          />
+            <div class="form-field">
+              <input type="email" value="Enter e-mail adress" id="e-mail" />
+            </div>
+            <!-- Teste de bot -->
+            <label class="nao-aparece" for=""
+              >Se você não é um robô, deixe em branco.</label
+            >
+            <input type="text" class="nao-aparece" name="leaveblank" />
+            <label class="nao-aparece" for=""
+              >Se você não é um robô, não mude este campo.</label
+            >
+            <input
+              type="text"
+              class="nao-aparece"
+              name="dontchange"
+              value="http://"
+            />
 
-          <textarea id="mensagem" name="mensagem" required>
+            <textarea id="mensagem" name="mensagem" required>
 Enter message...</textarea
-          >
+            >
 
-          <button id="enviar" name="enviar" class="btn" type="submit">
-            Send <img class="button-icon" src="img/send.svg" alt="Send icon" />
-          </button>
-        </form>
+            <button id="enviar" name="enviar" class="btn" type="submit">
+              Send
+              <img class="button-icon" src="img/send.svg" alt="Send icon" />
+            </button>
+          </form>
+        </div>
       </div>
     </section>
 

@@ -31,34 +31,33 @@ h2 {
   padding-bottom: 65px;
 }
 .title img,
-.header_menu img {
+.menu-nav img {
   display: inline;
 }
 /* Header */
 .header {
-  top: 0;
-  width: 100%;
+  max-width: 1280px;
   color: #303a33;
   padding: 35px 0;
+  display: flex;
+  justify-content: right;
 }
-
-.header_menu {
-  text-align: right;
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
-
-.header_menu ul li {
-  display: inline-block;
-  margin-left: 112px;
+.menu-nav a {
+  font-size: 28px;
+  color: #303a33;
+  padding: 20px;
 }
-.header_menu ul li a {
+/*.menu-nav ul li a { 
   font-size: 28px;
   color: #303a33;
   padding: 20px 0;
-}
-.header_menu ul li:last-child {
-  padding-right: 10px;
-}
-.header_menu .red {
+}*/
+.menu-nav .red {
   color: #961b2a;
 }
 

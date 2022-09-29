@@ -64,11 +64,13 @@ h2 {
 
 .home {
   display: flex;
+
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 .intro {
+  flex: 1 1 450px;
   max-width: 630px;
 }
 .intro h1 {
@@ -100,6 +102,8 @@ h2 {
 }
 
 .avatar {
+  flex: 1 1 300px;
+  display: flex;
   max-width: 620px;
   position: relative;
 }
@@ -108,11 +112,14 @@ h2 {
 }
 
 .avatar img:nth-child(2) {
+  max-width: 100%;
   position: absolute;
   top: 0;
   left: 240px;
 }
 .avatar img:nth-child(3) {
+  flex: 1 1 100px;
+
   position: absolute;
   top: 0;
   right: 10px;
@@ -296,7 +303,7 @@ h2 {
   scale: 105%;
 }
 
-/* Media query */
+/* Media query 
 @media only screen and (max-width: 1279px) {
   .works {
     justify-content: center;
@@ -328,4 +335,4 @@ h2 {
     max-width: 100%;
     padding: 0 20px;
   }
-}
+}*/

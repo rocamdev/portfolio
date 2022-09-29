@@ -112,25 +112,26 @@ h2 {
 }
 
 .avatar img:nth-child(2) {
-  max-width: 100%;
+  max-width: 10%;
   position: absolute;
   top: 0;
-  left: 240px;
+  left: 50%;
 }
 .avatar img:nth-child(3) {
-  flex: 1 1 100px;
-
+  max-width: 10%;
   position: absolute;
   top: 0;
   right: 10px;
 }
 .avatar img:nth-child(4) {
+  max-width: 12%;
   position: absolute;
   left: 0;
   top: 50px;
 }
 
 .avatar img:nth-child(6) {
+  max-width: 50%;
   position: absolute;
   right: -10px;
   bottom: -40px;

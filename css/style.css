@@ -357,3 +357,14 @@ h2 {
     padding: 0 20px;
   }
 }
+@media (max-width: 800px) {
+  .menu-nav {
+    margin-bottom: 30px;
+  }
+  .works-item {
+    flex: 1 1 400px;
+  }
+  .works {
+    flex-direction: column;
+  }
+}

@@ -177,12 +177,13 @@ h2 {
   text-align: center;
   padding-bottom: 50px;
 }
+
 .works {
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 .works-item {
   flex: 1 1 250px;
@@ -210,7 +211,7 @@ h2 {
 .works-item p {
   font-size: 20px;
   color: #fff;
-  padding: 15% 10%;
+  padding: 10px 20px 100px;
 }
 
 /* Contact */

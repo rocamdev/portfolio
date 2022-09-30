@@ -70,7 +70,7 @@ h2 {
 }
 .intro {
   flex: 2 1 450px;
-  padding-right: 10%;
+  margin: 10px;
 }
 .intro h1 {
   font-weight: 600;
@@ -85,6 +85,7 @@ h2 {
 }
 
 .intro button {
+  margin: 10px;
   color: white;
   width: 200px;
   padding: 10px 24px;
@@ -102,6 +103,7 @@ h2 {
 }
 
 .avatar {
+  margin: 10px;
   flex: 2 1 300px;
   display: flex;
   position: relative;
@@ -144,6 +146,7 @@ h2 {
 
 /* Skills */
 .skills-flex {
+  margin: 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -167,19 +170,22 @@ h2 {
   max-width: 25%;
 }
 /* Projects */
+
 .projects p {
+  margin: 10px;
   font-size: 35px;
   text-align: center;
   padding-bottom: 50px;
 }
 .works {
+  margin: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 .works-item {
-  flex: 1 1 200px;
+  flex: 1 1 250px;
   margin: 10px;
 }
 
@@ -214,6 +220,7 @@ h2 {
   justify-content: space-between;
 }
 .contato_form input {
+  margin: 10px;
   display: block;
   font-size: 30px;
   padding: 56px 20px 20px 20px;
@@ -287,6 +294,10 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.social,
+.github {
+  margin: 10px;
 }
 .social p,
 .github p:first-child {

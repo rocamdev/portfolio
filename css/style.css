@@ -355,10 +355,7 @@ template {
 body {
   @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap");
   font-family: "Be Vietnam Pro", arial, verdana, sans-serif;
-  font-size: 35px;
   background-color: #f5f8f6;
-  display: flex;
-  flex-direction: column;
 }
 
 * {
@@ -379,7 +376,7 @@ h2 {
 
 .title {
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: 600;
   padding-top: 160px;
   padding-bottom: 65px;
@@ -395,6 +392,7 @@ h2 {
 /* Header */
 
 .menu-nav ul {
+  max-width: 100%;
   color: #303a33;
   padding: 35px 0;
   display: flex;
@@ -402,8 +400,9 @@ h2 {
   align-items: baseline;
   justify-content: right;
 }
+
 .menu-nav a {
-  font-size: 28px;
+  font-size: 1.75em;
   color: #303a33;
   padding: 20px;
 }
@@ -421,8 +420,11 @@ h2 {
   align-items: center;
 }
 .intro {
-  flex: 2 1 450px;
+  flex: 2 1 400px;
   margin: 10px;
+}
+.intro p {
+  font-size: 2.2em;
 }
 .intro h1 {
   font-weight: 600;
@@ -431,7 +433,7 @@ h2 {
   color: #3a3a3a;
 }
 .intro-button {
-  padding-top: 50px;
+  padding-top: 3.125em;
   display: flex;
   justify-content: space-between;
 }
@@ -502,6 +504,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-size: 2.2em;
 }
 .skills-img {
   flex: 1 1 350px;
@@ -644,6 +647,7 @@ h2 {
   max-width: 100%;
 }
 .footer {
+  font-size: 2.2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -681,43 +685,7 @@ h2 {
 
 /* Media query  */
 @media only screen and (max-width: 1279px) {
-  .home {
-    justify-content: center;
+  body {
     max-width: 100%;
-    padding: 0 20px;
-  }
-  .skills-flex {
-    justify-content: center;
-    max-width: 100%;
-    padding: 0 20px;
-  }
-  /* .works-item {
-    scale: 80%;
-  } */
-  .contact {
-    justify-content: center;
-    max-width: 100%;
-    padding: 0 20px;
-  }
-  .menu-nav ul {
-    justify-content: center;
-    max-width: 100%;
-    padding: 0 20px;
-  }
-  .footer {
-    justify-content: space-around;
-    max-width: 100%;
-    padding: 0 20px;
-  }
-}
-@media (max-width: 800px) {
-  .menu-nav {
-    margin-bottom: 30px;
-  }
-  .works-item {
-    flex: 1 1 400px;
-  }
-  .works {
-    flex-direction: column;
   }
 }

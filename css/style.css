@@ -420,7 +420,7 @@ h2 {
   align-items: center;
 }
 .intro {
-  flex: 2 1 400px;
+  flex: 1 1 400px;
   margin: 10px;
 }
 .intro p {
@@ -428,7 +428,7 @@ h2 {
 }
 .intro h1 {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 3.125em;
   padding-bottom: 37px;
   color: #3a3a3a;
 }
@@ -459,9 +459,8 @@ h2 {
 
 .avatar {
   margin: 10px;
-  flex: 2 1 300px;
-  display: flex;
   position: relative;
+  flex: 1 1 300px;
 }
 .avatar-img {
   padding-top: 100px;
@@ -510,6 +509,8 @@ h2 {
 .skills-img {
   flex: 1 1 350px;
   padding-left: 50px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 .tech-flex {
   flex: 1 1 400px;
@@ -535,7 +536,7 @@ h2 {
 }
 
 .works {
-  margin: 10px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -576,27 +577,41 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.contato_form input {
-  margin: 10px;
+.title span {
   display: block;
-  font-size: 30px;
-  padding: 56px 20px 20px 20px;
+  opacity: 70%;
+}
+.form {
+  flex: 1 1 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 100%;
+}
+.contact-illustation {
+  flex: 1 1 400px;
+  margin-right: 30px;
+  max-width: 100%;
+}
+
+.form-field input {
+  /* margin: 10px; */
+  font-size: 1.875em;
+  min-height: 100px;
   color: #838383;
   text-decoration: underline;
   width: 100%;
   outline: none;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.25);
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
   border-radius: 8px;
+  flex: 1;
 }
-.contato_form textarea {
-  display: block;
-  margin-top: 30px;
-  font-size: 30px;
-  width: 100%;
-  padding: 20px 20px;
+.form textarea {
+  font-size: 1.875em;
+  max-width: 100%;
   outline: none;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.25);
@@ -604,9 +619,10 @@ h2 {
   border-radius: 8px;
 
   color: #838383;
+  flex: 1;
 }
-.contato_form .btn {
-  margin: 45px 166px;
+.form .btn {
+  margin: 45px auto;
   width: 181px;
   height: 66px;
   font-size: 36px;
@@ -655,7 +671,7 @@ h2 {
 }
 .social,
 .github {
-  margin: 10px;
+  margin: 0 auto;
 }
 .social p,
 .github p:first-child {

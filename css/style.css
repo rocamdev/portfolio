@@ -661,7 +661,7 @@ h2 {
 /* Footer */
 .footer-bg {
   background: url(../img/wave.png) no-repeat;
-  background-size: cover;
+  background-size: 100%;
   max-width: 100%;
 }
 .footer {
@@ -705,5 +705,13 @@ h2 {
 @media only screen and (max-width: 1279px) {
   body {
     max-width: 100%;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .footer-bg {
+    background: url(../img/wave-mobile.svg) no-repeat;
+    background-size: 100%;
+    /* background-position: bottom; */
+    /* background-color: #578965; */
   }
 }

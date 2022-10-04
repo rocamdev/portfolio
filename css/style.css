@@ -711,7 +711,14 @@ h2 {
   .footer-bg {
     background: url(../img/wave-mobile.svg) no-repeat;
     background-size: 100%;
-    /* background-position: bottom; */
-    /* background-color: #578965; */
+  }
+}
+@media only screen and (max-width: 435px) {
+  .menu-nav a {
+    font-size: 1.2em;
+    padding: 10px 10px;
+  }
+  .menu-nav ul {
+    justify-content: center;
   }
 }

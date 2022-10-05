@@ -713,6 +713,12 @@ h2 {
     background-size: 100%;
   }
 }
+@media only screen and (max-width: 580px) {
+  .footer-bg {
+    background: url(../img/wave-mobile.svg) no-repeat bottom;
+    background-size: cover;
+  }
+}
 @media only screen and (max-width: 435px) {
   .menu-nav a {
     font-size: 1.2em;
@@ -720,5 +726,16 @@ h2 {
   }
   .menu-nav ul {
     justify-content: center;
+  }
+  .intro button {
+    color: white;
+    flex: 1 1 200px;
+    min-width: 150px;
+    padding: 5px 0;
+    background: #961b2a;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12),
+      0px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border: none;
   }
 }

@@ -773,9 +773,11 @@ h2 {
   color: #fff;
   opacity: 0.5;
   text-align: center;
+  text-transform: uppercase;
 }
 .title-coming span {
   display: block;
+  text-transform: uppercase;
 }
 .coming {
   background-color: #1d1d1d;
@@ -833,14 +835,11 @@ h2 {
   display: none;
   position: absolute;
   top: 0px;
-  opacity: 0;
 }
 
 .js [data-slide] > .active {
   display: flex;
   position: relative;
-  opacity: 1;
-  transition: opacity 500ms;
 }
 
 .js [data-slide-nav] {

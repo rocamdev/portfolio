@@ -3,6 +3,6 @@ if (window.SimpleSlide) {
     slide: "main",
     nav: true,
     auto: false,
-    time: 90000,
+    time: 300000,
   });
 }

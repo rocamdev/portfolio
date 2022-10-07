@@ -616,6 +616,7 @@ h2 {
 }
 .item-p {
   display: flex;
+  flex-wrap: wrap;
   flex: 1 1 300px;
   align-self: stretch;
   background-color: #3d563f;
@@ -623,6 +624,7 @@ h2 {
   max-height: 600px;
   max-width: 800px;
 }
+
 .item-p p {
   font-size: 1.25em;
   text-align: left;
@@ -828,12 +830,14 @@ h2 {
 }
 
 .js [data-slide] > * {
+  display: none;
   position: absolute;
   top: 0px;
   opacity: 0;
 }
 
 .js [data-slide] > .active {
+  display: flex;
   position: relative;
   opacity: 1;
   transition: opacity 500ms;

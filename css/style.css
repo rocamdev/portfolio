@@ -497,6 +497,7 @@ h2 {
 }
 .intro p {
   font-size: 2.2em;
+  margin-bottom: 20px;
 }
 .intro h1 {
   font-weight: 600;
@@ -535,15 +536,15 @@ h2 {
   position: relative;
   flex: 1 1 300px;
 }
-.avatar-img {
-  padding-top: 100px;
-}
 
+.avatar img:nth-child(1) {
+  margin-top: 20px;
+}
 .avatar img:nth-child(2) {
   max-width: 10%;
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 60%;
 }
 .avatar img:nth-child(3) {
   max-width: 10%;
@@ -797,6 +798,9 @@ h2 {
     background: url(../img/wave-mobile.svg) no-repeat;
     background-size: 100%;
   }
+  .intro-button {
+    margin-top: 10px;
+  }
 }
 @media only screen and (max-width: 580px) {
   .footer-bg {
@@ -812,6 +816,7 @@ h2 {
   .menu-nav ul {
     justify-content: center;
   }
+
   .intro button {
     color: white;
     flex: 1 1 200px;
@@ -868,10 +873,7 @@ h2 {
 .js [data-anime] {
   opacity: 0;
 }
-.js .anime {
-  opacity: 1;
-  transition: opacity 800ms;
-}
+
 /* tipos de animações */
 .js .fadeInDown {
   transform: translate3d(0, -20px, 0);
@@ -884,4 +886,10 @@ h2 {
 }
 .js .fadeInRight {
   transform: translate3d(20px, 0, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
 }

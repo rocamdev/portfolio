@@ -6,3 +6,7 @@ if (window.SimpleSlide) {
     time: 300000,
   });
 }
+
+if (window.SimpleSlide) {
+  new SimpleAnime();
+}

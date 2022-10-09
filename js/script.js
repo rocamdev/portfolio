@@ -7,6 +7,6 @@ if (window.SimpleSlide) {
   });
 }
 
-if (window.SimpleSlide) {
+if (window.SimpleAnime) {
   new SimpleAnime();
 }

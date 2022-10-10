@@ -3,10 +3,10 @@
 require("./sendgrid-php/sendgrid-php.php");
 
 $email_site = "rodolfocamposcontato@gmail.com";
-$nome_site = "Portfolio-Rodolfo Campos";
+$nome_site = "Portfolio";
 
 $email_user = $_POST["email"];
-// $nome_user = $_POST["nome"];
+$nome_user = $_POST["nome"];
 
 $body_content = "";
 foreach( $_POST as $field => $value) {
@@ -22,7 +22,7 @@ $email->addTo($email_site, $nome_site);
 
 $email->setReplyTo($email_user, $nome_user);
 
-$email->setSubject("Formulário Portfólio Rodolfo Campos");
+$email->setSubject("Formulário bikcraft");
 $email->addContent("text/plain", $body_content);
 
 $sendgrid = new \SendGrid("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");

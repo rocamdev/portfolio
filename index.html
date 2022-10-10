@@ -179,49 +179,38 @@
           src="img/contacts.svg"
           alt="Contact illustration"
         />
-
-        <form
-          class="form"
-          id="form_contact"
-          method="POST"
-          action="./enviar.php"
-          class="contato_form formphp"
-        >
-          <div class="form-field">
-            <label class="dontshow" for="email"></label>
-            <input
-              type="email"
-              value="Enter e-mail adress"
-              id="email"
-              name="email"
-              required
-            />
+        <div class="contact-info">
+          <div class="contact-social">
+            <p>Contact me:</p>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/rocamdev/" target="_blank"
+                  ><img src="img/linkedin-green.svg" alt="linkedin icon" />
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/+5565999914493" target="_blank"
+                  ><img src="img/whatsapp-green.svg" alt="whatsapp icon"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/rodolfocampos.dev/"
+                  target="_blank"
+                  ><img src="img/instagram-green.svg" alt="instagram icon"
+                /></a>
+              </li>
+            </ul>
           </div>
-          <!-- Teste de bot -->
-          <label class="dontshow" for=""
-            >Se você não é um robô, deixe em branco.</label
-          >
-          <input type="text" class="dontshow" name="leaveblank" />
-          <label class="dontshow" for=""
-            >Se você não é um robô, não mude este campo.</label
-          >
-          <input
-            type="text"
-            class="dontshow"
-            name="dontchange"
-            value="http://"
-          />
-          <label class="dontshow" for="mensagem"></label>
 
-          <textarea id="mensagem" name="mensagem" required>
-Enter message...</textarea
-          >
-
-          <button id="enviar" name="enviar" class="btn" type="submit">
-            Send
-            <img class="button-icon" src="img/send.svg" alt="Send icon" />
-          </button>
-        </form>
+          <div class="contact-github">
+            <p>Where to get my code</p>
+            <a href="https://github.com/rocamdev" target="_blank"
+              ><img src="img/github-green.svg" alt="github icon" />
+              <p>@rodolforcampos on github</p>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -253,7 +242,7 @@ Enter message...</textarea
 
         <div class="github">
           <p>Where to get my code</p>
-          <a href="https://github.com/rodolforcampos" target="_blank"
+          <a href="https://github.com/rocamdev" target="_blank"
             ><img src="img/github.svg" alt="github icon" />
             <p>@rodolforcampos on github</p>
           </a>

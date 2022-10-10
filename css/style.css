@@ -724,7 +724,7 @@ h2 {
   padding-left: 10px;
 }
 
-.nao-aparece {
+.dontshow {
   visibility: hidden;
   position: absolute;
   height: 0;

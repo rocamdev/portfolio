@@ -669,20 +669,12 @@ h2 {
   margin-right: 30px;
   max-width: 100%;
 }
-.contact-social,
-.contact-github {
+.contact-social {
   font-size: 2.2em;
 }
-.contact-github {
-  display: flex;
-  flex-direction: column;
-}
-.contact-social p,
-.contact-github p:first-child {
+
+.contact-social p {
   color: #656966;
-}
-.contact-github p {
-  text-align: center;
 }
 
 .contact-social p {
@@ -694,19 +686,11 @@ h2 {
   justify-content: space-around;
   margin: 20px 0;
 }
-.contact-github a {
-  display: flex;
-  align-items: center;
-  margin: 20px auto;
-}
+
 .contact-social img {
   fill: #1d1d1d;
 }
 .contact-social img:hover {
-  scale: 105%;
-}
-.contact-github img:hover,
-.contact-github a p:hover {
   scale: 105%;
 }
 

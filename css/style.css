@@ -511,10 +511,13 @@ h2 {
   justify-content: stretch;
   flex-wrap: nowrap;
 }
-.intro a:nth-child(2) {
+.intro button:nth-child(2) {
   margin-left: 30px;
 }
-.intro-button a {
+.intro-button button a {
+  color: #fff;
+}
+.intro-button button {
   flex: 1 1 300px;
 }
 .intro button {

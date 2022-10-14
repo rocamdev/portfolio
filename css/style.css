@@ -709,11 +709,12 @@ h2 {
 .github {
   margin: 0 auto;
 }
-.social p,
-.github p:first-child {
+.social h2,
+.github h2:first-child {
   margin-top: 150px;
   color: #fff;
 }
+
 .github p {
   color: #fff;
 }

@@ -424,12 +424,11 @@ ul {
 
 /* Estilos Gerais */
 
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap");
 body {
-  @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap");
   font-family: "Be Vietnam Pro", arial, verdana, sans-serif;
   background-color: #f5f8f6;
 }
-
 * {
   box-sizing: border-box;
 }
